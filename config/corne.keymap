@@ -64,6 +64,16 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <9 10>;
         };
+
+        left-back {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <25 24>;
+        };
+
+        right-forward {
+            bindings = <&kp RA(RIGHT)>;
+            key-positions = <26 25>;
+        };
     };
 
     behaviors {
